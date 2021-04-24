@@ -11,3 +11,4 @@ lint:
 	flake8 hello_world test
 
 run:
+	python3 main.py
