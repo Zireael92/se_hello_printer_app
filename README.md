@@ -34,6 +34,11 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
   ```
   $ PYTHONPATH=. py.test
+
+  #lub
+  $ make test
+
+  #lub
   $ PYTHONPATH=. py.test --verbose -s
   ```
 
