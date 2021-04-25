@@ -2,6 +2,7 @@ from hello_world import app
 from hello_world.formater import get_formatted
 from hello_world.formater import SUPPORTED, PLAIN, XML
 from flask import request
+import json
 
 moje_imie = "Karolina"
 msg = "Hello World!"
