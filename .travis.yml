@@ -8,5 +8,11 @@ script:
  - make lint
  - make docker_build
  - make docker_push
+
+deploy:
+ provider: heroku
+ app: lit-sea-69584
+ api_key: ${HEROKU_API_KEY}
+
 #after_success:
 # - make docker_build
