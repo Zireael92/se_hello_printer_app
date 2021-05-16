@@ -1,12 +1,11 @@
 from hello_world import app
 from hello_world.formater import get_formatted
-from hello_world.formater import SUPPORTED, PLAIN, XML
+from hello_world.formater import SUPPORTED, PLAIN
 from flask import request
-import json
+import json # noqa
 
 moje_imie = "Karolina"
 msg = "Hello World!"
-
 
 
 @app.route('/')
